@@ -1,0 +1,24 @@
+<html>
+<head></head>
+<body> 
+ <p>Check String is empty Or not</p>
+  <p id="stringCheck" type="text">
+  
+
+ 
+ <script>
+  function isEmpty(s)
+   {
+    if(s == "" || s == null) { var msg="string is empty";
+                  return true;	
+	             }
+	 else  {
+	         var msg="It has Some value" ;
+			 return false;
+	        }
+    }
+	document.getElementById("stringCheck").innerHTML = isEmpty("");
+ </script>
+ 
+</body>
+</html>
